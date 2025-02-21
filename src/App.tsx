@@ -1,9 +1,8 @@
-import "./App.css";
-import ComingSoon from "./components/ComingSoon/ComingSoon";
+import React from "react";
+import ComingSoon from "../src/components/ComingSoon/ComingSoon";
 
-function App() {
-  return;
-  <ComingSoon />;
-}
+const App = () => {
+  return <ComingSoon />;
+};
 
 export default App;
